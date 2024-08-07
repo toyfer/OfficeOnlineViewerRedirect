@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Office Online Viewer Redirect",
+  "version": "1.0",
+  "description": "Officeファイルを自動的にOffice Online Viewerで開きます",
+  "permissions": [
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
